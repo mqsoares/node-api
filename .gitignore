@@ -1,0 +1,47 @@
+# Dependências do Node
+node_modules/
+
+# Diretórios de Log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios de Build
+dist/
+build/
+
+# Diretórios de Teste
+coverage/
+.nyc_output/
+
+# IDEs e Editores
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Arquivos de Ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Diretórios temporários
+tmp/
+temp/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Outros arquivos
+*.swp
+*.bak
+*.pid
+*.seed
+*.pid.lock
